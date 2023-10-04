@@ -108,7 +108,7 @@ def Intro (response, money):
 
                 elif sellhouses == 2:
                     try:
-                        pmortgage = int(input('Mortgage your property '))
+                        pmortgage = int(input('Mortgage your property for how much? '))
                     except ValueError:
                         continue
                     else:
